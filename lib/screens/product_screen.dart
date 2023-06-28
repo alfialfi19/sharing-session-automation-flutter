@@ -68,10 +68,10 @@ class ProductContent extends StatelessWidget {
                   var data = state.postsListData;
 
                   return ListView.builder(
-                    key: Key(UIKeys.productContentLoadedSection),
+                    key: const Key(UIKeys.productContentLoadedSection),
                     shrinkWrap: true,
                     physics: const ClampingScrollPhysics(),
-                    itemCount: 10,
+                    itemCount: 15,
                     itemBuilder: (context, index) {
                       return Container(
                         margin: const EdgeInsets.only(

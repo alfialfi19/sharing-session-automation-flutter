@@ -8,14 +8,12 @@ class UIKeys {
   // Main Screen
   static const discoverMainTab = 'discoverMainTab';
   static const discoverHomeTabActive = 'discoverHomeTabActive';
-  static const discoverHomeTabInactive = 'discoverHomeTabInactive';
   static const discoverProductTabActive = 'discoverProductTabActive';
-  static const discoverProductTabInactive = 'discoverProductTabInactive';
   static const discoverProfileTabActive = 'discoverProfileTabActive';
-  static const discoverProfileTabInactive = 'discoverProfileTabInactive';
 
   // Home Screen
   static const discoverHomeScreen = 'discoverHomeScreen';
+  static const homeScreenSection = 'homeScreenSection';
   static const homeWelcomeSection = 'homeWelcomeSection';
   static const homeContentLoadingSection = 'homeContentLoadingSection';
   static const homeContentLoadedSection = 'homeContentLoadedSection';
@@ -32,4 +30,9 @@ class UIKeys {
   static const profileContentLoadingSection = 'profileContentLoadingSection';
   static const profileContentLoadedSection = 'profileContentLoadedSection';
   static const profileContentErrorSection = 'profileContentErrorSection';
+
+  // Detail Posts Screen
+  static const discoverDetailPostsScreen = 'discoverDetailPostsScreen';
+  static const detailPostsHeaderSection = 'detailPostsHeaderSection';
+  static postsItem(int index) => 'postsItem$index';
 }

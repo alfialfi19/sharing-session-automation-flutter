@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sharing_session/routes.dart';
-import 'package:sharing_session/screens/home_screen.dart';
-import 'package:sharing_session/screens/main_screen.dart';
-import 'package:sharing_session/screens/product_screen.dart';
-import 'package:sharing_session/screens/profile_screen.dart';
-import 'package:sharing_session/screens/sign_in_screen.dart';
-import 'package:sharing_session/screens/splash_screen.dart';
+
+import 'screens/screens.dart';
 
 Widget? getPageByName(
   String? name, {
@@ -20,6 +16,8 @@ Widget? getPageByName(
       return const ProductScreen();
     case Routes.profile:
       return const ProfileScreen();
+    case Routes.detailPosts:
+      return const DetailPostsScreen();
     case Routes.signIn:
       return const SignInScreen();
     case Routes.splash:
